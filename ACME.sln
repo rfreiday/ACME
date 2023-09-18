@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACME", "ACME\ACME.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACME.Test", "ACME.Test\ACME.Test.csproj", "{7EB28F8A-09D5-4ADA-8F54-16D640B1BAF8}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ACME.Database", "ACME.Database\ACME.Database.sqlproj", "{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{7EB28F8A-09D5-4ADA-8F54-16D640B1BAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB28F8A-09D5-4ADA-8F54-16D640B1BAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB28F8A-09D5-4ADA-8F54-16D640B1BAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D8C5C6-8E8F-47D2-8BAD-C780246AF676}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
