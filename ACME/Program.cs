@@ -6,6 +6,7 @@ using ACME.Data;
 using ACME.DTO;
 using ACME.Validator;
 using ACME.Repository;
+using ACME.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,7 +74,7 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-//app.UseMiddleware<ApiKeyAuthMiddleware>();
+app.UseMiddleware<ApiKeyAuthMiddleware>();
 
 app.UseAuthorization();
 
